@@ -27,4 +27,4 @@ jobs:
       run: composer install --prefer-dist --no-interaction --no-progress -vvv
 
     - name: Run tests
-      run: php -d error_reporting=E_ALLÊ_DEPRECATED vendor/bin.phpunit --testdox || true
+      run: php -d error_reporting=E_ALLÊ_DEPRECATED vendor\bin.phpunit --testdox || true
