@@ -21,13 +21,13 @@ class HelloTest extends TestCase
         public function testSpecialCharacters(): void 
         {
             $hello = new Hello();
-            $this->assertSame("Bonjour, {Èlodie!", $hello->sayHello("Èlodie"));
+            $this->assertSame("Bonjour, Èlodie!", $hello->sayHello("Èlodie"));
         }
 
         public function testNumericName(): void 
         {
             $hello = new Hello();
-            $this->assertSame("Bonjour, 12345!", $hello->sayHello("abc"));
+            $this->assertSame("Bonjour, 12345!", $hello->sayHello("12345"));
         }
 
         public function testReturnType(): void 
