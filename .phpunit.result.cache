@@ -1,1 +1,1 @@
-{"version":1,"defects":[],"times":{"App\\Tests\\HelloTest::testSayHello":0.005}}
+{"version":1,"defects":{"App\\Tests\\HelloTest::testSpecialCharacters":7,"App\\Tests\\HelloTest::testNumericName":7},"times":{"App\\Tests\\HelloTest::testSayHello":0.006,"App\\Tests\\HelloTest::testSayHelloEmpty":0,"App\\Tests\\HelloTest::testSpecialCharacters":0.053,"App\\Tests\\HelloTest::testNumericName":0.002,"App\\Tests\\HelloTest::testReturnType":0.001}}
